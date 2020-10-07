@@ -10,3 +10,6 @@ https://www.microchip.com/wwwproducts/en/PIC18F47K42
 
 ## Youtube
 https://www.youtube.com/watch?v=hHLMnJs87VE
+
+## useful links
+https://www.microchip.com/stellent/groups/SiteComm_sg/documents/DeviceDoc/en551260.pdf
