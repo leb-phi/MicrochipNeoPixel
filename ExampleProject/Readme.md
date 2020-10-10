@@ -33,19 +33,19 @@ Similarly DMA2 is used to transfer the data from a look up table stored in the f
 ## System Module
 ![image](assets/systemmodule.png)
 ## SPI Module
-![image](/assets/SPImodule.png)
+![image](assets/SPImodule.png)
 ## PWM Module
-
+![image](assets/PWMmodule.png)
 ## CLC Module
-
+![image](assets/CLCmodule.png)
 ## Timer2 Module
-
+![image](assets/timer2module.png)
 ## Timer0 Module
-
+![image](assets/timer0module.png)
 ## DAC Module
-
+![image](assets/DACmodule.png)
 ## Pin Manager
-
+![image](assets/PinManager.png)
 ## Operation
 
     Make the required pin connections as mentioned in the Pin Details section.
@@ -55,17 +55,17 @@ Similarly DMA2 is used to transfer the data from a look up table stored in the f
 
 # Results
 ## LED Panel
-
+![image](assets/LEDpanel.jpg)
 The 8x32 NeoPixel panel should have the text scrolling. Note that the DMA module is being used to transmit the data to the LEDs and the CPU is idle during that period.
 Waveforms on Oscilloscope
 
 The oscilloscope connected to pin RA2 should cycle through the sine, triangular and sawtooth wave form every 5 seconds. Note that these waveforms are also being generated without any CPU interference.
-Sine wave
-
+## Sine wave
+![image](assets/SineWave.jpg)
 ## Triangular Wave
-
+![image](assets/triangularWave.jpg)
 ## Sawtooth Wave
-
+![image](assets/SawtoothWave.jpg)
 # Useful Links
 
 ## Applikation Note
