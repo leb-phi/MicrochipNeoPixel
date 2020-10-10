@@ -31,7 +31,7 @@ In this example as mentioned earlier, DMA1 is used to feed the data into the SPI
 Similarly DMA2 is used to transfer the data from a look up table stored in the flash memory to the DAC data register. The frequency of this transfer determines the frequency of the output waveform. In this case, we are using Timer0 to trigger the DMA module. Everytime Timer0 rolls over, it will automatically trigger DMA2 to transfer a byte into the DAC. You can notice this in the dma2.c file under the DMA2_Initialize() routine. Here DMA2SIRQ = 31 which is the code for Timer0. This eliminates the need for the CPU to keep track of the timing and transfer data.
 # MCC Settings
 ## System Module
-![image](/assets/systemmodule.png)
+![image](assets/systemmodule.png)
 ## SPI Module
 ![image](/assets/SPImodule.png)
 ## PWM Module
