@@ -40,6 +40,9 @@ Similarly DMA2 is used to transfer the data from a look up table stored in the f
 ![image](assets/CLCmodule.png)
 ## Timer2 Module
 ![image](assets/timer2module.png)
+## DMA 1
+![image](assets/DMA1_1.png)
+![image](assets/DMA1_2.png)
 ## Timer0 Module
 ![image](assets/timer0module.png)
 ## DAC Module
@@ -48,10 +51,10 @@ Similarly DMA2 is used to transfer the data from a look up table stored in the f
 ![image](assets/PinManager.png)
 ## Operation
 
-    Make the required pin connections as mentioned in the Pin Details section.
-    Program the device.
-    Once program you will notice the text message scroll on the LED panel.
-    The waveforms can be observed on pin RA2. The application scrolls through a sine wave, triangular wave and a sawtooth wave every 5 secs.
+Make the required pin connections as mentioned in the Pin Details section.
+Program the device.
+Once program you will notice the text message scroll on the LED panel.
+The waveforms can be observed on pin RA2. The application scrolls through a sine wave, triangular wave and a sawtooth wave every 5 secs.
 
 # Results
 ## LED Panel
