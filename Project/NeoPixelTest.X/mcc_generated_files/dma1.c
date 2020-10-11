@@ -60,18 +60,18 @@ void DMA1_Initialize(void)
 {
     //Source Address : DMAArray
     DMA1SSA = &DMAArray;
-    //Destination Address : &DstVarName0
-    DMA1DSA= &DstVarName0;
+    //Destination Address : &SPI1TXB
+    DMA1DSA = &SPI1TXB;
     //DMODE unchanged; DSTP not cleared; SMR GPR; SMODE incremented; SSTP cleared; 
     DMA1CON1 = 0x03;
-    //Source Message Size : 1
-    DMA1SSZ = 1;
+    //Source Message Size : sizeof(DMAArray)
+    DMA1SSZ = sizeof(DMAArray);
     //Destination Message Size : 1
     DMA1DSZ = 1;
     //Start Trigger : SIRQ SPI1TX; 
     DMA1SIRQ = 0x15;
-    //Abort Trigger : AIRQ LVD; 
-    DMA1AIRQ = 0x01;
+    //Abort Trigger : AIRQ None; 
+    DMA1AIRQ = 0x00;
 	
     // Clear Destination Count Interrupt Flag bit
     PIR2bits.DMA1DCNTIF = 0; 
