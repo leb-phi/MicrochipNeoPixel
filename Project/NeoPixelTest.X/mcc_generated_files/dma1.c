@@ -87,8 +87,8 @@ void DMA1_Initialize(void)
     PIE2bits.DMA1AIE = 0;
     PIE2bits.DMA1ORIE = 0;
 	
-    //EN enabled; SIRQEN enabled; DGO not in progress; AIRQEN disabled; 
-    DMA1CON0 = 0xC0;
+    //EN enabled; SIRQEN disabled; DGO not in progress; AIRQEN disabled; 
+    DMA1CON0 = 0x80;
 	
 }
 
