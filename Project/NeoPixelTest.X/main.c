@@ -43,6 +43,8 @@
 
 #include "mcc_generated_files/mcc.h"
 
+uint16_t CNT;
+
 /*
                          Main application
  */
@@ -63,7 +65,22 @@ void main(void)
 
     while (1)
     {
+        __delay_ms(3000);
         LED0_LAT = SW0_PORT;// Add your application code
+        //Switch pressed
+        if (SW0_PORT == 0)
+        {
+            //start DMA transaction
+            DMA1CON0bits.SIRQEN = 1;   
+        }
+        //write LEDS
+        for (CNT = 0; CNT < 60; ++CNT) {
+
+            DMAArray[(CNT*3)] = 1; //Green
+            DMAArray[(CNT*3)+ 1] = 20; //Red
+            DMAArray[(CNT*3) + 2] = 15; //Blue 
+
+        }
     }
 }
 /**

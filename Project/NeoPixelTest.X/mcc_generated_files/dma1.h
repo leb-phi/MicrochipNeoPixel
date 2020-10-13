@@ -52,7 +52,7 @@
 */
 #include <stdint.h>
 
-uint8_t DMAArray[10];
+uint8_t DMAArray[60*3];
 
 /**
  * @brief Initializes the DMA1 module

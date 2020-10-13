@@ -52,6 +52,7 @@ void SYSTEM_Initialize(void)
     PMD_Initialize();
     PIN_MANAGER_Initialize();
     OSCILLATOR_Initialize();
+    CLC3_Initialize();
     DMA1_Initialize();
     TMR2_Initialize();
     PWM5_Initialize();

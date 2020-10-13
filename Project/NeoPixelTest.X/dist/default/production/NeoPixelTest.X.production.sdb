@@ -3,11 +3,11 @@
 [d edition pro ]
 [d chip 18F47K42 ]
 [d frameptr 16353 ]
-"79 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/spi1.c
+"79 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/spi1.c
 [e E355 . `uc
 SPI1_DEFAULT 0
 ]
-"88 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/tmr2.c
+"88 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/tmr2.c
 [e E15802 . `uc
 TMR2_ROP_STARTS_TMRON 0
 TMR2_ROP_STARTS_TMRON_ERSHIGH 1
@@ -59,49 +59,55 @@ TMR2_UART1_TX_EDGE 22
 TMR2_UART2_RX_EDGE 23
 TMR2_UART2_TX_EDGE 24
 ]
-"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\fleq.c
+"4 E:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
-"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\float.c
+"62 E:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\float.c
 [v ___ftpack __ftpack `(f  1 e 4 0 ]
-"86 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftadd.c
+"86 E:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftadd.c
 [v ___ftadd __ftadd `(f  1 e 4 0 ]
-"54 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftdiv.c
+"54 E:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftdiv.c
 [v ___ftdiv __ftdiv `(f  1 e 4 0 ]
-"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftmul.c
+"62 E:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftmul.c
 [v ___ftmul __ftmul `(f  1 e 4 0 ]
-"19 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftsub.c
+"19 E:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 4 0 ]
-"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcadd.c
+"10 E:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
 "245
 [v ___flsub __flsub `(d  1 e 4 0 ]
-"11 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcdiv.c
+"11 E:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcdiv.c
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
-"8 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcmul.c
+"8 E:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
-"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul32.c
+"15 E:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 E:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"91 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul64.c
+"91 E:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"49 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\main.c
+"51 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\main.c
 [v _main main `(v  1 e 1 0 ]
-"59 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/dma1.c
+"58 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/clc3.c
+[v _CLC3_Initialize CLC3_Initialize `(v  1 e 1 0 ]
+"59 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/dma1.c
 [v _DMA1_Initialize DMA1_Initialize `(v  1 e 1 0 ]
-"50 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/mcc.c
+"50 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
-"61
+"63
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
-"75
+"77
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
-"55 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/pin_manager.c
+"98
+[v _SystemArbiter_Initialize SystemArbiter_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"58 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/pwm5.c
+"58 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/pwm5.c
 [v _PWM5_Initialize PWM5_Initialize `(v  1 e 1 0 ]
-"64 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/spi1.c
+"64 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/spi1.c
 [v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
 "100
 [v _SPI1_ExchangeByte SPI1_ExchangeByte `(uc  1 e 1 0 ]
-"62 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/tmr2.c
+"62 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 "100
 [v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
@@ -113,11 +119,9 @@ TMR2_UART2_TX_EDGE 24
 [v _TMR2_Counter8BitSet TMR2_Counter8BitSet `(v  1 e 1 0 ]
 "147
 [v _TMR2_Period8BitSet TMR2_Period8BitSet `(v  1 e 1 0 ]
-"55 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X/mcc_generated_files/dma1.h
-[v _DMAArray DMAArray `[10]uc  1 e 10 0 ]
-"56
-[v _DstVarName0 DstVarName0 `[10]uc  1 e 10 0 ]
-[s S59 . 1 `uc 1 DMA1SCNTIE 1 0 :1:0 
+"55 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X/mcc_generated_files/dma1.h
+[v _DMAArray DMAArray `[180]uc  1 e 180 0 ]
+[s S60 . 1 `uc 1 DMA1SCNTIE 1 0 :1:0 
 `uc 1 DMA1DCNTIE 1 0 :1:1 
 `uc 1 DMA1ORIE 1 0 :1:2 
 `uc 1 DMA1AIE 1 0 :1:3 
@@ -126,13 +130,13 @@ TMR2_UART2_TX_EDGE 24
 `uc 1 SPI1IE 1 0 :1:6 
 `uc 1 I2C1RXIE 1 0 :1:7 
 ]
-"3588 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f47k42.h
-[s S68 . 1 `uc 1 . 1 0 :6:0 
+"3588 E:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f47k42.h
+[s S69 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 CMIE 1 0 :1:6 
 ]
-[u S71 . 1 `S59 1 . 1 0 `S68 1 . 1 0 ]
-[v _PIE2bits PIE2bits `VES71  1 e 1 @14738 ]
-[s S31 . 1 `uc 1 DMA1SCNTIF 1 0 :1:0 
+[u S72 . 1 `S60 1 . 1 0 `S69 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES72  1 e 1 @14738 ]
+[s S32 . 1 `uc 1 DMA1SCNTIF 1 0 :1:0 
 `uc 1 DMA1DCNTIF 1 0 :1:1 
 `uc 1 DMA1ORIF 1 0 :1:2 
 `uc 1 DMA1AIF 1 0 :1:3 
@@ -142,12 +146,12 @@ TMR2_UART2_TX_EDGE 24
 `uc 1 I2C1RXIF 1 0 :1:7 
 ]
 "4241
-[s S40 . 1 `uc 1 . 1 0 :6:0 
+[s S41 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 CMIF 1 0 :1:6 
 ]
-[u S43 . 1 `S31 1 . 1 0 `S40 1 . 1 0 ]
-[v _PIR2bits PIR2bits `VES43  1 e 1 @14754 ]
-[s S372 . 1 `uc 1 TMR1IF 1 0 :1:0 
+[u S44 . 1 `S32 1 . 1 0 `S41 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES44  1 e 1 @14754 ]
+[s S386 . 1 `uc 1 TMR1IF 1 0 :1:0 
 `uc 1 TMR1GIF 1 0 :1:1 
 `uc 1 TMR2IF 1 0 :1:2 
 `uc 1 CCP1IF 1 0 :1:3 
@@ -157,8 +161,8 @@ TMR2_UART2_TX_EDGE 24
 `uc 1 CLC1IF 1 0 :1:7 
 ]
 "4386
-[u S381 . 1 `S372 1 . 1 0 ]
-[v _PIR4bits PIR4bits `VES381  1 e 1 @14756 ]
+[u S395 . 1 `S386 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES395  1 e 1 @14756 ]
 "4686
 [v _PMD0 PMD0 `VEuc  1 e 1 @14784 ]
 "4763
@@ -187,13 +191,17 @@ TMR2_UART2_TX_EDGE 24
 [v _OSCFRQ OSCFRQ `VEuc  1 e 1 @14815 ]
 "6156
 [v _PRLOCK PRLOCK `VEuc  1 e 1 @14831 ]
-[s S142 . 1 `uc 1 PRLOCKED 1 0 :1:0 
+[s S143 . 1 `uc 1 PRLOCKED 1 0 :1:0 
 ]
 "6166
-[u S144 . 1 `S142 1 . 1 0 ]
-[v _PRLOCKbits PRLOCKbits `VES144  1 e 1 @14831 ]
+[u S145 . 1 `S143 1 . 1 0 ]
+[v _PRLOCKbits PRLOCKbits `VES145  1 e 1 @14831 ]
 "6312
 [v _DMA1PR DMA1PR `VEuc  1 e 1 @14835 ]
+"6716
+[v _RA4PPS RA4PPS `VEuc  1 e 1 @14852 ]
+"6966
+[v _RB1PPS RB1PPS `VEuc  1 e 1 @14857 ]
 "7466
 [v _RC3PPS RC3PPS `VEuc  1 e 1 @14867 ]
 "8266
@@ -258,6 +266,8 @@ TMR2_UART2_TX_EDGE 24
 [v _SLRCONE SLRCONE `VEuc  1 e 1 @14979 ]
 "10846
 [v _INLVLE INLVLE `VEuc  1 e 1 @14980 ]
+"11467
+[v _CLCIN0PPS CLCIN0PPS `VEuc  1 e 1 @15065 ]
 "11567
 [v _SPI1SCKPPS SPI1SCKPPS `VEuc  1 e 1 @15070 ]
 "11587
@@ -276,7 +286,7 @@ TMR2_UART2_TX_EDGE 24
 [v _DMA1SSA DMA1SSA `VEum  1 e 3 @15353 ]
 "16647
 [v _DMA1CON0 DMA1CON0 `VEuc  1 e 1 @15356 ]
-[s S105 . 1 `uc 1 XIP 1 0 :1:0 
+[s S106 . 1 `uc 1 XIP 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 AIRQEN 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
@@ -285,7 +295,7 @@ TMR2_UART2_TX_EDGE 24
 `uc 1 EN 1 0 :1:7 
 ]
 "16672
-[s S113 . 1 `uc 1 DMA1XIP 1 0 :1:0 
+[s S114 . 1 `uc 1 DMA1XIP 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 DMA1AIRQEN 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
@@ -293,23 +303,68 @@ TMR2_UART2_TX_EDGE 24
 `uc 1 DMA1SIRQEN 1 0 :1:6 
 `uc 1 DMA1EN 1 0 :1:7 
 ]
-[u S121 . 1 `S105 1 . 1 0 `S113 1 . 1 0 ]
-[v _DMA1CON0bits DMA1CON0bits `VES121  1 e 1 @15356 ]
+[u S122 . 1 `S106 1 . 1 0 `S114 1 . 1 0 ]
+[v _DMA1CON0bits DMA1CON0bits `VES122  1 e 1 @15356 ]
 "16727
 [v _DMA1CON1 DMA1CON1 `VEuc  1 e 1 @15357 ]
-[s S88 . 1 `uc 1 SSTP 1 0 :1:0 
+[s S89 . 1 `uc 1 SSTP 1 0 :1:0 
 `uc 1 SMODE 1 0 :2:1 
 `uc 1 SMR 1 0 :2:3 
 `uc 1 DSTP 1 0 :1:5 
 `uc 1 DMODE 1 0 :2:6 
 ]
 "16741
-[u S94 . 1 `S88 1 . 1 0 ]
-[v _DMA1CON1bits DMA1CON1bits `VES94  1 e 1 @15357 ]
+[u S95 . 1 `S89 1 . 1 0 ]
+[v _DMA1CON1bits DMA1CON1bits `VES95  1 e 1 @15357 ]
 "16771
 [v _DMA1AIRQ DMA1AIRQ `VEuc  1 e 1 @15358 ]
 "16887
 [v _DMA1SIRQ DMA1SIRQ `VEuc  1 e 1 @15359 ]
+"18169
+[v _CLC3CON CLC3CON `VEuc  1 e 1 @15456 ]
+[s S840 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 INTN 1 0 :1:3 
+`uc 1 INTP 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 OE 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"18202
+[s S847 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+]
+[s S851 . 1 `uc 1 LC3MODE 1 0 :3:0 
+`uc 1 LC3INTN 1 0 :1:3 
+`uc 1 LC3INTP 1 0 :1:4 
+`uc 1 LC3OUT 1 0 :1:5 
+`uc 1 LC3OE 1 0 :1:6 
+`uc 1 LC3EN 1 0 :1:7 
+]
+[s S858 . 1 `uc 1 LC3MODE0 1 0 :1:0 
+`uc 1 LC3MODE1 1 0 :1:1 
+`uc 1 LC3MODE2 1 0 :1:2 
+]
+[u S862 . 1 `S840 1 . 1 0 `S847 1 . 1 0 `S851 1 . 1 0 `S858 1 . 1 0 ]
+[v _CLC3CONbits CLC3CONbits `VES862  1 e 1 @15456 ]
+"18297
+[v _CLC3POL CLC3POL `VEuc  1 e 1 @15457 ]
+"18375
+[v _CLC3SEL0 CLC3SEL0 `VEuc  1 e 1 @15458 ]
+"18503
+[v _CLC3SEL1 CLC3SEL1 `VEuc  1 e 1 @15459 ]
+"18631
+[v _CLC3SEL2 CLC3SEL2 `VEuc  1 e 1 @15460 ]
+"18759
+[v _CLC3SEL3 CLC3SEL3 `VEuc  1 e 1 @15461 ]
+"18887
+[v _CLC3GLS0 CLC3GLS0 `VEuc  1 e 1 @15462 ]
+"18999
+[v _CLC3GLS1 CLC3GLS1 `VEuc  1 e 1 @15463 ]
+"19111
+[v _CLC3GLS2 CLC3GLS2 `VEuc  1 e 1 @15464 ]
+"19223
+[v _CLC3GLS3 CLC3GLS3 `VEuc  1 e 1 @15465 ]
 "22281
 [v _SPI1RXB SPI1RXB `VEuc  1 e 1 @15632 ]
 "22351
@@ -341,13 +396,13 @@ TMR2_UART2_TX_EDGE 24
 [v _SPI1BAUD SPI1BAUD `VEuc  1 e 1 @15641 ]
 "23090
 [v _SPI1CLK SPI1CLK `VEuc  1 e 1 @15644 ]
-[s S702 . 1 `uc 1 P5TSEL 1 0 :2:0 
+[s S653 . 1 `uc 1 P5TSEL 1 0 :2:0 
 `uc 1 P6TSEL 1 0 :2:2 
 `uc 1 P7TSEL 1 0 :2:4 
 `uc 1 P8TSEL 1 0 :2:6 
 ]
 "37821
-[s S707 . 1 `uc 1 P5TSEL0 1 0 :1:0 
+[s S658 . 1 `uc 1 P5TSEL0 1 0 :1:0 
 `uc 1 P5TSEL1 1 0 :1:1 
 `uc 1 P6TSEL0 1 0 :1:2 
 `uc 1 P6TSEL1 1 0 :1:3 
@@ -357,10 +412,10 @@ TMR2_UART2_TX_EDGE 24
 `uc 1 P8TSEL1 1 0 :1:7 
 ]
 "37821
-[u S716 . 1 `S702 1 . 1 0 `S707 1 . 1 0 ]
+[u S667 . 1 `S653 1 . 1 0 `S658 1 . 1 0 ]
 "37821
 "37821
-[v _CCPTMRS1bits CCPTMRS1bits `VES716  1 e 1 @16223 ]
+[v _CCPTMRS1bits CCPTMRS1bits `VES667  1 e 1 @16223 ]
 "38790
 [v _PWM5DCL PWM5DCL `VEuc  1 e 1 @16236 ]
 "38856
@@ -377,17 +432,17 @@ TMR2_UART2_TX_EDGE 24
 [v _PR2 PR2 `VEuc  1 e 1 @16299 ]
 "43078
 [v _T2CON T2CON `VEuc  1 e 1 @16300 ]
-[s S530 . 1 `uc 1 OUTPS 1 0 :4:0 
+[s S544 . 1 `uc 1 OUTPS 1 0 :4:0 
 `uc 1 CKPS 1 0 :3:4 
 `uc 1 ON 1 0 :1:7 
 ]
 "43114
-[s S534 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+[s S548 . 1 `uc 1 T2OUTPS 1 0 :4:0 
 `uc 1 T2CKPS 1 0 :3:4 
 `uc 1 T2ON 1 0 :1:7 
 ]
 "43114
-[s S538 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+[s S552 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
 `uc 1 T2OUTPS1 1 0 :1:1 
 `uc 1 T2OUTPS2 1 0 :1:2 
 `uc 1 T2OUTPS3 1 0 :1:3 
@@ -396,7 +451,7 @@ TMR2_UART2_TX_EDGE 24
 `uc 1 T2CKPS2 1 0 :1:6 
 ]
 "43114
-[s S546 . 1 `uc 1 OUTPS0 1 0 :1:0 
+[s S560 . 1 `uc 1 OUTPS0 1 0 :1:0 
 `uc 1 OUTPS1 1 0 :1:1 
 `uc 1 OUTPS2 1 0 :1:2 
 `uc 1 OUTPS3 1 0 :1:3 
@@ -406,70 +461,70 @@ TMR2_UART2_TX_EDGE 24
 `uc 1 TMR2ON 1 0 :1:7 
 ]
 "43114
-[u S555 . 1 `S530 1 . 1 0 `S534 1 . 1 0 `S538 1 . 1 0 `S546 1 . 1 0 ]
+[u S569 . 1 `S544 1 . 1 0 `S548 1 . 1 0 `S552 1 . 1 0 `S560 1 . 1 0 ]
 "43114
 "43114
-[v _T2CONbits T2CONbits `VES555  1 e 1 @16300 ]
+[v _T2CONbits T2CONbits `VES569  1 e 1 @16300 ]
 "43224
 [v _T2HLT T2HLT `VEuc  1 e 1 @16301 ]
-[s S416 . 1 `uc 1 MODE 1 0 :5:0 
+[s S430 . 1 `uc 1 MODE 1 0 :5:0 
 `uc 1 CKSYNC 1 0 :1:5 
 `uc 1 CKPOL 1 0 :1:6 
 `uc 1 PSYNC 1 0 :1:7 
 ]
 "43257
-[s S421 . 1 `uc 1 MODE0 1 0 :1:0 
+[s S435 . 1 `uc 1 MODE0 1 0 :1:0 
 `uc 1 MODE1 1 0 :1:1 
 `uc 1 MODE2 1 0 :1:2 
 `uc 1 MODE3 1 0 :1:3 
 `uc 1 MODE4 1 0 :1:4 
 ]
 "43257
-[s S427 . 1 `uc 1 T2MODE 1 0 :5:0 
+[s S441 . 1 `uc 1 T2MODE 1 0 :5:0 
 `uc 1 T2CKSYNC 1 0 :1:5 
 `uc 1 T2CKPOL 1 0 :1:6 
 `uc 1 T2PSYNC 1 0 :1:7 
 ]
 "43257
-[s S432 . 1 `uc 1 T2MODE0 1 0 :1:0 
+[s S446 . 1 `uc 1 T2MODE0 1 0 :1:0 
 `uc 1 T2MODE1 1 0 :1:1 
 `uc 1 T2MODE2 1 0 :1:2 
 `uc 1 T2MODE3 1 0 :1:3 
 `uc 1 T2MODE4 1 0 :1:4 
 ]
 "43257
-[u S438 . 1 `S416 1 . 1 0 `S421 1 . 1 0 `S427 1 . 1 0 `S432 1 . 1 0 ]
+[u S452 . 1 `S430 1 . 1 0 `S435 1 . 1 0 `S441 1 . 1 0 `S446 1 . 1 0 ]
 "43257
 "43257
-[v _T2HLTbits T2HLTbits `VES438  1 e 1 @16301 ]
+[v _T2HLTbits T2HLTbits `VES452  1 e 1 @16301 ]
 "43352
 [v _T2CLKCON T2CLKCON `VEuc  1 e 1 @16302 ]
 "43510
 [v _T2RST T2RST `VEuc  1 e 1 @16303 ]
-[s S492 . 1 `uc 1 RSEL 1 0 :5:0 
+[s S506 . 1 `uc 1 RSEL 1 0 :5:0 
 ]
 "43537
-[s S494 . 1 `uc 1 RSEL0 1 0 :1:0 
+[s S508 . 1 `uc 1 RSEL0 1 0 :1:0 
 `uc 1 RSEL1 1 0 :1:1 
 `uc 1 RSEL2 1 0 :1:2 
 `uc 1 RSEL3 1 0 :1:3 
 `uc 1 RSEL4 1 0 :1:4 
 ]
 "43537
-[s S500 . 1 `uc 1 T2RSEL 1 0 :5:0 
+[s S514 . 1 `uc 1 T2RSEL 1 0 :5:0 
 ]
 "43537
-[s S502 . 1 `uc 1 T2RSEL0 1 0 :1:0 
+[s S516 . 1 `uc 1 T2RSEL0 1 0 :1:0 
 `uc 1 T2RSEL1 1 0 :1:1 
 `uc 1 T2RSEL2 1 0 :1:2 
 `uc 1 T2RSEL3 1 0 :1:3 
 `uc 1 T2RSEL4 1 0 :1:4 
 ]
 "43537
-[u S508 . 1 `S492 1 . 1 0 `S494 1 . 1 0 `S500 1 . 1 0 `S502 1 . 1 0 ]
+[u S522 . 1 `S506 1 . 1 0 `S508 1 . 1 0 `S514 1 . 1 0 `S516 1 . 1 0 ]
 "43537
 "43537
-[v _T2RSTbits T2RSTbits `VES508  1 e 1 @16303 ]
+[v _T2RSTbits T2RSTbits `VES522  1 e 1 @16303 ]
 "45110
 [v _LATA LATA `VEuc  1 e 1 @16314 ]
 "45222
@@ -480,20 +535,20 @@ TMR2_UART2_TX_EDGE 24
 [v _LATD LATD `VEuc  1 e 1 @16317 ]
 "45558
 [v _LATE LATE `VEuc  1 e 1 @16318 ]
-[s S637 . 1 `uc 1 LATE0 1 0 :1:0 
+[s S748 . 1 `uc 1 LATE0 1 0 :1:0 
 `uc 1 LATE1 1 0 :1:1 
 `uc 1 LATE2 1 0 :1:2 
 ]
 "45575
-[s S641 . 1 `uc 1 LE0 1 0 :1:0 
+[s S752 . 1 `uc 1 LE0 1 0 :1:0 
 `uc 1 LE1 1 0 :1:1 
 `uc 1 LE2 1 0 :1:2 
 ]
 "45575
-[u S645 . 1 `S637 1 . 1 0 `S641 1 . 1 0 ]
+[u S756 . 1 `S748 1 . 1 0 `S752 1 . 1 0 ]
 "45575
 "45575
-[v _LATEbits LATEbits `VES645  1 e 1 @16318 ]
+[v _LATEbits LATEbits `VES756  1 e 1 @16318 ]
 "45610
 [v _TRISA TRISA `VEuc  1 e 1 @16322 ]
 "45672
@@ -518,69 +573,91 @@ TMR2_UART2_TX_EDGE 24
 [v _TRISD TRISD `VEuc  1 e 1 @16325 ]
 "45858
 [v _TRISE TRISE `VEuc  1 e 1 @16326 ]
-[s S657 . 1 `uc 1 RE0 1 0 :1:0 
+[s S768 . 1 `uc 1 RE0 1 0 :1:0 
 `uc 1 RE1 1 0 :1:1 
 `uc 1 RE2 1 0 :1:2 
 `uc 1 RE3 1 0 :1:3 
 ]
 "46214
-[s S662 . 1 `uc 1 . 1 0 :3:0 
+[s S773 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 CCP9E 1 0 :1:3 
 ]
 "46214
-[s S665 . 1 `uc 1 . 1 0 :3:0 
+[s S776 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 PC3E 1 0 :1:3 
 ]
 "46214
-[u S668 . 1 `S657 1 . 1 0 `S662 1 . 1 0 `S665 1 . 1 0 ]
+[u S779 . 1 `S768 1 . 1 0 `S773 1 . 1 0 `S776 1 . 1 0 ]
 "46214
 "46214
-[v _PORTEbits PORTEbits `VES668  1 e 1 @16334 ]
+[v _PORTEbits PORTEbits `VES779  1 e 1 @16334 ]
+"46 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\main.c
+[v _CNT CNT `us  1 e 2 0 ]
 [s S203 . 5 `uc 1 con0 1 0 `uc 1 con1 1 1 `uc 1 con2 1 2 `uc 1 baud 1 3 `uc 1 operation 1 4 ]
-"60 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/spi1.c
+"60 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/spi1.c
 [v _spi1_configuration spi1_configuration `C[1]S203  1 s 5 spi1_configuration ]
-"49 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\main.c
+"51 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"68
+"85
 } 0
-"50 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/mcc.c
+"15 E:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"50 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
-"59
+"61
 } 0
-"62 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/tmr2.c
+"62 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 {
 "86
 } 0
-"64 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/spi1.c
+"98 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/mcc.c
+[v _SystemArbiter_Initialize SystemArbiter_Initialize `(v  1 e 1 0 ]
+{
+"104
+} 0
+"64 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/spi1.c
 [v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
 {
 "77
 } 0
-"58 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/pwm5.c
+"58 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/pwm5.c
 [v _PWM5_Initialize PWM5_Initialize `(v  1 e 1 0 ]
 {
 "72
 } 0
-"75 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/mcc.c
+"77 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/mcc.c
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
 {
-"93
+"95
 } 0
-"55 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/pin_manager.c
+"55 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
-"140
+"143
 } 0
-"61 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/mcc.c
+"63 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
-"73
+"75
 } 0
-"59 C:\Users\Philipp\Documents\Repos\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/dma1.c
+"59 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/dma1.c
 [v _DMA1_Initialize DMA1_Initialize `(v  1 e 1 0 ]
 {
 "93
+} 0
+"58 C:\Users\Philipp\Documents\GitHub\MicrochipNeoPixel\Project\NeoPixelTest.X\mcc_generated_files/clc3.c
+[v _CLC3_Initialize CLC3_Initialize `(v  1 e 1 0 ]
+{
+"83
 } 0

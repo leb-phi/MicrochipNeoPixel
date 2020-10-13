@@ -53,6 +53,7 @@
 #include <stdbool.h>
 #include <conio.h>
 #include "dma1.h"
+#include "clc3.h"
 #include "tmr2.h"
 #include "pwm5.h"
 #include "spi1.h"
