@@ -1,7 +1,9 @@
 Version 4.0 HI-TECH Software Intermediate Code
+[v F16269 `(v ~T0 @X0 0 tf ]
+[v F16271 `(v ~T0 @X0 0 tf ]
 [p mainexit ]
-"74 ./mcc_generated_files/mcc.h
-[; ;./mcc_generated_files/mcc.h: 74: void SYSTEM_Initialize(void);
+"76 ./mcc_generated_files/mcc.h
+[; ;./mcc_generated_files/mcc.h: 76: void SYSTEM_Initialize(void);
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
 [v F15762 `(v ~T0 @X0 1 tf1`ul ]
 "203 E:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\pic18.h
@@ -2258,6 +2260,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 "55 ./mcc_generated_files/dma1.h
 [; ;./mcc_generated_files/dma1.h: 55: uint8_t DMAArray[60*3];
 [v _DMAArray `uc ~T0 @X0 -> 180 `i e ]
+"518 ./mcc_generated_files/uart1.h
+[; ;./mcc_generated_files/uart1.h: 518: void (*UART1_RxInterruptHandler)(void);
+[v _UART1_RxInterruptHandler `*F16269 ~T0 @X0 1 e ]
+"536
+[; ;./mcc_generated_files/uart1.h: 536: void (*UART1_TxInterruptHandler)(void);
+[v _UART1_TxInterruptHandler `*F16271 ~T0 @X0 1 e ]
 "46 main.c
 [; ;main.c: 46: uint16_t CNT;
 [v _CNT `us ~T0 @X0 1 e ]
@@ -2275,7 +2283,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e ( _SYSTEM_Initialize ..  ]
 "66
 [; ;main.c: 66:     while (1)
-[e :U 2201 ]
+[e :U 2203 ]
 "67
 [; ;main.c: 67:     {
 {
@@ -2287,7 +2295,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e = . . _LATEbits 0 0 . . _PORTEbits 0 2 ]
 "71
 [; ;main.c: 71:         if (PORTEbits.RE2 == 0)
-[e $ ! == -> . . _PORTEbits 0 2 `i -> 0 `i 2203  ]
+[e $ ! == -> . . _PORTEbits 0 2 `i -> 0 `i 2205  ]
 "72
 [; ;main.c: 72:         {
 {
@@ -2297,14 +2305,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 "75
 [; ;main.c: 75:         }
 }
-[e :U 2203 ]
+[e :U 2205 ]
 "77
 [; ;main.c: 77:         for (CNT = 0; CNT < 60; ++CNT) {
 {
 [e = _CNT -> -> 0 `i `us ]
-[e $ < -> _CNT `ui -> -> 60 `i `ui 2204  ]
-[e $U 2205  ]
-[e :U 2204 ]
+[e $ < -> _CNT `ui -> -> 60 `i `ui 2206  ]
+[e $U 2207  ]
+[e :U 2206 ]
 {
 "79
 [; ;main.c: 79:             DMAArray[(CNT*3)] = 1;
@@ -2319,16 +2327,16 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 83:         }
 }
 [e =+ _CNT -> -> 1 `i `us ]
-[e $ < -> _CNT `ui -> -> 60 `i `ui 2204  ]
-[e :U 2205 ]
+[e $ < -> _CNT `ui -> -> 60 `i `ui 2206  ]
+[e :U 2207 ]
 }
 "84
 [; ;main.c: 84:     }
 }
-[e :U 2200 ]
-[e $U 2201  ]
 [e :U 2202 ]
+[e $U 2203  ]
+[e :U 2204 ]
 "85
 [; ;main.c: 85: }
-[e :UE 2199 ]
+[e :UE 2201 ]
 }

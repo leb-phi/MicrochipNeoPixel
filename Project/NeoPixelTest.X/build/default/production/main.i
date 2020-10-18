@@ -26593,9 +26593,9 @@ extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 # 50 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/pin_manager.h" 1
-# 178 "./mcc_generated_files/pin_manager.h"
+# 214 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
-# 190 "./mcc_generated_files/pin_manager.h"
+# 226 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
 # 51 "./mcc_generated_files/mcc.h" 2
 
@@ -26722,6 +26722,11 @@ extern char * cgets(char *);
 extern void cputs(const char *);
 # 54 "./mcc_generated_files/mcc.h" 2
 
+# 1 "./mcc_generated_files/interrupt_manager.h" 1
+# 87 "./mcc_generated_files/interrupt_manager.h"
+void INTERRUPT_Initialize (void);
+# 55 "./mcc_generated_files/mcc.h" 2
+
 # 1 "./mcc_generated_files/dma1.h" 1
 # 55 "./mcc_generated_files/dma1.h"
 uint8_t DMAArray[60*3];
@@ -26824,14 +26829,14 @@ void DMA1_StopTransfer(void);
 
 
 void DMA1_SetDMAPriority(uint8_t priority);
-# 55 "./mcc_generated_files/mcc.h" 2
+# 56 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/clc3.h" 1
 # 91 "./mcc_generated_files/clc3.h"
 void CLC3_Initialize(void);
 # 113 "./mcc_generated_files/clc3.h"
 _Bool CLC3_OutputStatusGet(void);
-# 56 "./mcc_generated_files/mcc.h" 2
+# 57 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/tmr2.h" 1
 # 79 "./mcc_generated_files/tmr2.h"
@@ -27072,17 +27077,17 @@ void TMR2_Period8BitSet(uint8_t periodVal);
 void TMR2_LoadPeriodRegister(uint8_t periodVal);
 # 848 "./mcc_generated_files/tmr2.h"
 _Bool TMR2_HasOverflowOccured(void);
-# 57 "./mcc_generated_files/mcc.h" 2
+# 58 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/pwm5.h" 1
 # 102 "./mcc_generated_files/pwm5.h"
  void PWM5_Initialize(void);
 # 129 "./mcc_generated_files/pwm5.h"
  void PWM5_LoadDutyValue(uint16_t dutyValue);
-# 58 "./mcc_generated_files/mcc.h" 2
+# 59 "./mcc_generated_files/mcc.h" 2
 
-# 1 "./mcc_generated_files/spi1.h" 1
-# 54 "./mcc_generated_files/spi1.h"
+# 1 "./mcc_generated_files/uart1.h" 1
+# 57 "./mcc_generated_files/uart1.h"
 # 1 "E:\\Program Files\\Microchip\\xc8\\v2.30\\pic\\include\\c99\\stdio.h" 1 3
 # 24 "E:\\Program Files\\Microchip\\xc8\\v2.30\\pic\\include\\c99\\stdio.h" 3
 # 1 "E:\\Program Files\\Microchip\\xc8\\v2.30\\pic\\include\\c99\\bits/alltypes.h" 1 3
@@ -27221,12 +27226,61 @@ char *ctermid(char *);
 
 
 char *tempnam(const char *, const char *);
-# 54 "./mcc_generated_files/spi1.h" 2
+# 57 "./mcc_generated_files/uart1.h" 2
+# 75 "./mcc_generated_files/uart1.h"
+typedef union {
+    struct {
+        unsigned perr : 1;
+        unsigned ferr : 1;
+        unsigned oerr : 1;
+        unsigned reserved : 5;
+    };
+    uint8_t status;
+}uart1_status_t;
 
 
 
 
+extern volatile uint8_t uart1TxBufferRemaining;
+extern volatile uint8_t uart1RxCount;
+# 116 "./mcc_generated_files/uart1.h"
+void UART1_Initialize(void);
+# 164 "./mcc_generated_files/uart1.h"
+_Bool UART1_is_rx_ready(void);
+# 212 "./mcc_generated_files/uart1.h"
+_Bool UART1_is_tx_ready(void);
+# 259 "./mcc_generated_files/uart1.h"
+_Bool UART1_is_tx_done(void);
+# 307 "./mcc_generated_files/uart1.h"
+uart1_status_t UART1_get_last_status(void);
+# 356 "./mcc_generated_files/uart1.h"
+uint8_t UART1_Read(void);
+# 381 "./mcc_generated_files/uart1.h"
+void UART1_Write(uint8_t txData);
+# 402 "./mcc_generated_files/uart1.h"
+void UART1_Transmit_ISR(void);
+# 423 "./mcc_generated_files/uart1.h"
+void UART1_Receive_ISR(void);
+# 444 "./mcc_generated_files/uart1.h"
+void UART1_RxDataHandler(void);
+# 462 "./mcc_generated_files/uart1.h"
+void UART1_SetFramingErrorHandler(void (* interruptHandler)(void));
+# 480 "./mcc_generated_files/uart1.h"
+void UART1_SetOverrunErrorHandler(void (* interruptHandler)(void));
+# 498 "./mcc_generated_files/uart1.h"
+void UART1_SetErrorHandler(void (* interruptHandler)(void));
+# 518 "./mcc_generated_files/uart1.h"
+void (*UART1_RxInterruptHandler)(void);
+# 536 "./mcc_generated_files/uart1.h"
+void (*UART1_TxInterruptHandler)(void);
+# 556 "./mcc_generated_files/uart1.h"
+void UART1_SetRxInterruptHandler(void (* InterruptHandler)(void));
+# 574 "./mcc_generated_files/uart1.h"
+void UART1_SetTxInterruptHandler(void (* InterruptHandler)(void));
+# 60 "./mcc_generated_files/mcc.h" 2
 
+# 1 "./mcc_generated_files/spi1.h" 1
+# 59 "./mcc_generated_files/spi1.h"
 typedef enum {
     SPI1_DEFAULT
 } spi1_modes_t;
@@ -27240,14 +27294,14 @@ void SPI1_WriteBlock(void *block, size_t blockSize);
 void SPI1_ReadBlock(void *block, size_t blockSize);
 void SPI1_WriteByte(uint8_t byte);
 uint8_t SPI1_ReadByte(void);
-# 59 "./mcc_generated_files/mcc.h" 2
-# 74 "./mcc_generated_files/mcc.h"
+# 61 "./mcc_generated_files/mcc.h" 2
+# 76 "./mcc_generated_files/mcc.h"
 void SYSTEM_Initialize(void);
-# 87 "./mcc_generated_files/mcc.h"
+# 89 "./mcc_generated_files/mcc.h"
 void OSCILLATOR_Initialize(void);
-# 100 "./mcc_generated_files/mcc.h"
+# 102 "./mcc_generated_files/mcc.h"
 void PMD_Initialize(void);
-# 112 "./mcc_generated_files/mcc.h"
+# 114 "./mcc_generated_files/mcc.h"
 void SystemArbiter_Initialize(void);
 # 44 "main.c" 2
 
